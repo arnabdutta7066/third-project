@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:radial-gradient(ellipse at center, green,blue);
+        }
+        .login-container{
+            width:1000px;
+            height:500px;
+            border:1px solid red;
+            display: flex;
+            border-radius: 24px;
+           
+        }
+
+        .left-side{
+            width:50%;
+            height: 100%;
+            background-color: blanchedalmond;
+            background-image: url("asset/background_image.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .left-side h2{
+            font-size: 32px;
+            color: #FFFFFF;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .left-side p{
+            font-size: 16px;
+            color: #FFFFFF;
+            margin-top: -50px;
+            
+            text-align: center;
+            padding: 40px;
+        }
+
+
+
+
+
+
+
+        .right-side{
+            width:50%;
+            height: 100%;
+            padding: 0px 30px;
+        }
+        .right-side h1{
+            font-size: 48px;
+            color: #009EE2;
+            font-weight: bold;
+            text-align: center;
+        }
+        .right-side h5{
+            text-align: center;
+            margin-top: -20px;
+            color:rgba(0, 0, 0, 0.5);
+            font-size: 15px;
+        }
+        input{
+            padding: 10px 30px;
+            width:80%;
+            border: none;
+        }
+
+        fieldset{
+            border:2px solid rgba(0, 158, 226, 1);
+            border-radius: 9px;
+            margin-bottom: 25px;
+            
+        }
+        legend{
+            color: rgba(0, 158, 226, 1);
+            font-size: 18px;
+        }
+
+        p{
+            
+            font-size: 12px;
+            text-align: right;
+        }
+
+        p a{
+            color: rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+        }
+        .btn-container{
+            display: flex;
+            justify-content: center;
+        }
+        .btn-container button{
+            width:125px;
+            height: 48px;
+            background-color: rgba(0, 158, 226, 1);
+            border-radius: 5px;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+    <div class="login-container">
+        <div class="left-side">
+            <h2>Travelista Tours</h2>
+            <p>Travel is the only purchase that enriches you in ways
+                beyond material wealth</p>
+           
+        </div>
+        <div class="right-side">
+            <h1>Welcome</h1>
+            <h5>log-in With e-mail</h5>
+
+            <form action="">
+                <fieldset>
+                    <legend>
+                        E-mail Id:
+                    </legend>
+                    <input type="text" name="" id="" placeholder="Enter your e-mail :">
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>
+                        Password:
+                    </legend>
+                    <input type="text" name="" id="" placeholder="***************">
+                </fieldset>
+
+                <p><a href="">Forgot your Password?</a></p>
+
+                <div class="btn-container">
+                    <button>LOG-IN</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
